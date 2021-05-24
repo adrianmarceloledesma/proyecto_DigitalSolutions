@@ -1,0 +1,59 @@
+/* header */
+h1{
+    text-align: center;
+
+}
+
+/* form */
+form{
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    padding:5px;
+    border:1px solid rgb(114, 114, 114);
+}
+.submit{
+    background-color: rgb(223, 233, 233);
+    cursor:pointer;
+}
+
+/* table */
+body table{
+    margin:auto;
+    width:70%;
+    border:2px solid  rgb(223, 233, 233);
+}
+td,th{
+    text-align: start;
+    padding:7px 0 7px 3px;
+}
+th{
+    background-color: rgb(223, 233, 233);
+}
+tr:nth-child(even){
+    background-color: rgb(223, 233, 233);
+}
+
+
+.show{
+    display:table;
+}
+.hide{
+    display: none;
+}
+
+
+/* Responsive */
+@media screen and (max-width:768px){
+    .show{
+        width:100%
+    }
+}
+
+@media screen and (max-width:340px){
+    td,th{
+        font-size: 14px;
+        padding:5px 2px;
+    }
+}
